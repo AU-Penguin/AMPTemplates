@@ -1,9 +1,10 @@
 {
-	"id": "c5e96c3b-c091-48e6-923c-d77e9067a5b3",
-	"authors": ["CubeCoders Limited", "AMP Community", "The Penguin"],
-	"origin": "https://github.com/AU-Penguin/AMPTemplates.git",
-	"url": "https://github.com/AU-Penguin/AMPTemplates",
-	"imagefile": "",
-	"prefix": "",
-	"repotype": "AppTemplates"
+    "id": "b6afcdde-020e-484a-b5f6-f986cbd1a45d",
+    "authors": [
+        "AU-Penguin - Made with AMP Config Generator"
+    ],
+    "origin": "https://github.com/AU-Penguin - Made with AMP Config Generator/AMPTemplates.git",
+    "url": "https://github.com/AU-Penguin - Made with AMP Config Generator/AMPTemplates",
+    "imagefile": "",
+    "prefix": "AU-Penguin - Made with AMP Config Generator"
 }
