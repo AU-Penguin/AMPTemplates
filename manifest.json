@@ -1,8 +1,8 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
-	"authors": ["CubeCoders Limited", "AMP Community"],
-	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
+	"id": "c5e96c3b-c091-48e6-923c-d77e9067a5b3",
+	"authors": ["CubeCoders Limited", "AMP Community", "The Penguin"],
+	"origin": "https://github.com/AU-Penguin/AMPTemplates.git",
+	"url": "https://github.com/AU-Penguin/AMPTemplates",
 	"imagefile": "",
 	"prefix": "",
 	"repotype": "AppTemplates"
