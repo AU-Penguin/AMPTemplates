@@ -4,11 +4,6 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "3252540",
-        "UpdateSourceArgs": "3151710",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": "Linux",
-        "DeleteAfterExtract": true,
-        "OneShot": false
+        "UpdateSourceArgs": "3151710"
     }
 ]
