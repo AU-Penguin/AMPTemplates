@@ -9,5 +9,14 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Config Template Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "OverwriteExistingFiles": false,
+        "UpdateSourceData": "https://raw.githubusercontent.com/AU-Penguin/AMPTemplates/main/ace-squaredserver.cfg",
+        "UpdateSourceTarget": "{{$FullBaseDir}}/AceSquaredDedicated_Data",
+        "UpdateSourceArgs": "config.toml"
     }
 ]

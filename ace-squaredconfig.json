@@ -1,1 +1,16 @@
-[]
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Ace2",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the server name visible in the game browser",
+        "Keywords": "server,name,hostname",
+        "FieldName": "hostname",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "hostname",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "AMP Powered Ace Squared Server",
+        "EnumValues": {}
+    }
+]
