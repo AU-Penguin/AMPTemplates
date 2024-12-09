@@ -16,7 +16,7 @@
         "UpdateSource": "FetchURL",
         "OverwriteExistingFiles": false,
         "UpdateSourceData": "https://raw.githubusercontent.com/AU-Penguin/AMPTemplates/main/ace-squaredserver.cfg",
-        "UpdateSourceTarget": "{{$FullBaseDir}}/AceSquaredDedicated_Data",
-        "UpdateSourceArgs": "config.toml"
+        "UpdateSourceTarget": "{{$FullBaseDir}}/AceSquaredDedicated_Data/StreamingAssets",
+        "UpdateSourceArgs": "AMP_config.toml"
     }
 ]

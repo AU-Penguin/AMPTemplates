@@ -1,7 +1,8 @@
 [
     {
-        "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
-        "ConfigType": "kvp",
-        "AutoMap": true
+        "ConfigFile": "./AceSquaredDedicated_Data/StreamingAssets/config.toml",
+        "ConfigType": "template",
+        "AutoMap": true,
+        "ConfigFileTemplate": "./AceSquaredDedicated_Data/StreamingAssets/AMP_config.toml"
     }
 ]
