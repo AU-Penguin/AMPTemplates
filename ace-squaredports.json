@@ -1,42 +1,30 @@
 [
     {
         "Protocol": "UDP",
-        "Port": 30001,
-        "Offset": 0,
-        "Range": 1,
-        "Ref": "GamePort",
-        "Name": "Game Port",
-        "Description": "Main game port used by the server",
-        "ChildPorts": null
+        "Port": "30001",
+        "Name": "Main Game Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "MainGamePort"
     },
     {
         "Protocol": "UDP",
-        "Port": 30002,
-        "Offset": 0,
-        "Range": 1,
-        "Ref": "QueryPort",
-        "Name": "Query Port",
-        "Description": "Query Port",
-        "ChildPorts": null
+        "Port": "30002",
+        "Name": "",
+        "Description": "Port used for main game traffic",
+        "Ref": ""
     },
     {
         "Protocol": "UDP",
-        "Port": 30003,
-        "Offset": 0,
-        "Range": 1,
-        "Ref": "HeartBeatPort",
-        "Name": "Heartbeat Port",
-        "Description": "Port for Heartbeat traffic",
-        "ChildPorts": null
+        "Port": "30003",
+        "Name": "",
+        "Description": "Port used for main game traffic",
+        "Ref": ""
     },
     {
         "Protocol": "UDP",
-        "Port": 30004,
-        "Offset": 0,
-        "Range": 1,
-        "Ref": "MapPort",
-        "Name": "Map Server Port",
-        "Description": "Port used for MapServer",
-        "ChildPorts": null
+        "Port": "30004",
+        "Name": "",
+        "Description": "Port used for main game traffic",
+        "Ref": ""
     }
 ]
