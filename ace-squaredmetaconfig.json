@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
+        "ConfigType": "kvp",
+        "AutoMap": true
+    }
+]
