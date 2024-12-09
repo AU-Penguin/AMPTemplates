@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Server Name",
-        "Category": "Ace2",
+        "Category": "Ace Squared Settings",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the server name visible in the game browser",
         "Keywords": "server,name,hostname",
