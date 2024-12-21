@@ -9,21 +9,21 @@
     {
         "Protocol": "UDP",
         "Port": "30002",
-        "Name": "SteamQueryPort",
+        "Name": "Query Port",
         "Description": "Port used for query",
         "Ref": "SteamQueryPort"
     },
     {
         "Protocol": "UDP",
         "Port": "30003",
-        "Name": "HeartbeatPort",
+        "Name": "Heartbeat Port",
         "Description": "Port used for heartbeat traffic",
         "Ref": "HeartbeatPort"
     },
     {
         "Protocol": "TCP",
         "Port": "30004",
-        "Name": "MapServer",
+        "Name": "Map Server",
         "Description": "Port used for downloading custom maps",
         "Ref": "MapServer"
     }
