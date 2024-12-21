@@ -4,7 +4,15 @@
         "ConfigType": "kvp",
 	"ConfigFormat": "{0} = {1}",
 	"ConfigFormatRegex": "^(?<key>.+?)\\s=\\s(?<value>.*?)$",
-        "Importable": true
+	"Subsections": [
+		{
+			"Heading": "$root",
+			"SettingMappings": {
+				"port": "ServerPort",
+				"max_players": "$MaxUsers",
+			}
+		}
+        ]
     },
     {
         "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
@@ -16,8 +24,6 @@
 			"Heading": "$root",
 			"SettingMappings": {
 				"map_server_bind_ip_address_override": "$ApplicationIPBinding",
-				"port": "ServerPort",
-				"max_players": "$MaxUsers",
 				"server_name": "server_name"
 			}
 		}
