@@ -1,10 +1,10 @@
 {
     "id": "1ef6d947-4fa7-4692-b832-85e6f29d8c41",
     "authors": [
-        "AU-Penguin - Made with AMP Config Generator"
+        "AU-Penguin"
     ],
-    "origin": "https://github.com/AU-Penguin - Made with AMP Config Generator/AMPTemplates.git",
-    "url": "https://github.com/AU-Penguin - Made with AMP Config Generator/AMPTemplates",
+    "origin": "https://github.com/AU-Penguin/AMPTemplates.git",
+    "url": "https://github.com/AU-Penguin/AMPTemplates",
     "imagefile": "",
-    "prefix": "AU-Penguin - Made with AMP Config Generator"
+    "prefix": ""
 }

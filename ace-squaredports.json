@@ -21,10 +21,10 @@
         "Ref": "HeartbeatPort"
     },
     {
-        "Protocol": "UDP",
+        "Protocol": "TCP",
         "Port": "30004",
         "Name": "MapServer",
-        "Description": "Port used for main game traffic",
+        "Description": "Port used for downloading custom maps",
         "Ref": "MapServer"
     }
 ]

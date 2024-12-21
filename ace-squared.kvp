@@ -1,7 +1,7 @@
 Meta.DisplayName=Ace Squared
 Meta.Description=Ace Squared Dedicated Server
 Meta.Arch=x86_64
-Meta.Author=AU-Penguin - Made with AMP Config Generator
+Meta.Author=AU-Penguin
 Meta.URL=https://store.steampowered.com/app/3151710/Ace_Squared/
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
@@ -32,7 +32,7 @@ App.AdminPortRef=RemoteAdminPort
 App.UniversalSleepApplicationUDPPortRef=GamePort1
 App.PrimaryApplicationPortRef=GamePort1
 App.UniversalSleepSteamQueryPortRef=SteamQueryPort
-App.MaxUsers=8
+App.MaxUsers=16
 App.UseRandomAdminPassword=True
 App.RemoteAdminPassword=
 App.AdminLoginTransform=None
