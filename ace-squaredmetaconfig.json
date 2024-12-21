@@ -2,15 +2,26 @@
     {
         "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
         "ConfigType": "kvp",
-	"ConfigFormat": "{0} = \"{1}\"",
-	"ConfigFormatRegex": "^(?<key>.+?)\\s=\\s\"(?<value>.*?)\"$",
-	"AutoMap": true
+	"ConfigFormat": "{0} = {1}",
+	"ConfigFormatRegex": "^(?<key>.+?)\\s=\\s(?<value>.*?)$",
+	"AutoMap": true,
+        "Importable": true
     },
     {
         "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
         "ConfigType": "kvp",
-	"ConfigFormat": "{0} = {1}",
-	"ConfigFormatRegex": "^(?<key>.+?)\\s=\\s(?<value>.*?)$",
-	"AutoMap": true
+	"ConfigFormat": "{0} = \"{1}\"",
+	"ConfigFormatRegex": "^(?<key>.+?)\\s=\\s\"(?<value>.*?)\"$",
+	"AutoMap": true,
+	"Subsections": [
+		{
+			"Heading": "$root",
+			"SettingMappings": {
+				"map_server_bind_ip_address_override": "ServerIP",
+				"port": "ServerPort",
+				"max_players": "MaxPlayers"
+			}
+		}
+	]
     }
 ]

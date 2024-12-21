@@ -16,7 +16,7 @@
     {
         "DisplayName": "Server Description",
         "Category": "Ace Squared Settings",
-        "Subcategory": "Server:dns:2",
+        "Subcategory": "Server:dns:1",
         "Description": "Sets the server description",
         "Keywords": "server,name,hostname,description",
         "FieldName": "description",
@@ -30,7 +30,7 @@
     {
         "DisplayName": "Game Port",
         "Category": "Ace Squared Settings",
-        "Subcategory": "Ports",
+        "Subcategory": "Server:dns:1",
         "Description": "Sets the server game port (UDP)",
         "Keywords": "server,port",
         "FieldName": "port",
@@ -41,6 +41,21 @@
         "DefaultValue": 30001,
         "minValue": "0",
         "maxValue": "65535"
+    },
+    {
+        "DisplayName": "Maximum Players",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the server game port (UDP)",
+        "Keywords": "server,port",
+        "FieldName": "port",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "port",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 16,
+        "minValue": "2",
+        "maxValue": "32"
     }
 
 ]
