@@ -1,25 +1,8 @@
 [
     {
         "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
-        "ConfigType": "kvp",
-	"ConfigFormat": "{0} = {1}",
-	"ConfigFormatRegex": "^(?<key>.+?)\\s=\\s(?<value>.*?)$",
-    },
-    {
-        "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
-        "ConfigType": "kvp",
-	"ConfigFormat": "{0} = \"{1}\"",
-	"ConfigFormatRegex": "^(?<key>.+?)\\s=\\s\"(?<value>.*?)\"$",
-	"Subsections": [
-		{
-			"Heading": "$root",
-			"SettingMappings": {
-				"map_server_bind_ip_address_override": "$ApplicationIPBinding",
-				"server_name": "server_name",
-				"port": "ServerPort",
-				"max_players": "$MaxUsers"
-			}
-		}
-	]
+        "ConfigType": "template",
+	"ConfigFileTemplate": "AceSquaredDedicated_Data/StreamingAssets/AMP_config.toml",
+        "AutoMap": true
     }
 ]
