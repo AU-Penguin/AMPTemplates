@@ -1,7 +1,7 @@
 [
     {
         "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
-        "ConfigType": "ini",
+        "ConfigType": "kvp",
 	"ConfigFormat": "{0} = \"{1}\"",
 	"ConfigFormatRegex": "^(?<key>.+?)\\s=\\s\"(?<value>.*?)\"$",
 	"AutoMap": true
