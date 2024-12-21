@@ -1,7 +1,9 @@
 [
     {
         "ConfigFile": "./AceSquaredDedicated_Data/StreamingAssets/config.toml",
-        "ConfigType": "template",
-        "ConfigFileTemplate": "./AceSquaredDedicated_Data/StreamingAssets/AMP_config.toml"
+        "ConfigType": "ini",
+	"ConfigFormat": "{0}={1}",
+	"ConfigFormatRegex": "^(?<key>.+?)=(?<value>.*?)$",
+	"AutoMap": true
     }
 ]
