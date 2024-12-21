@@ -5,10 +5,10 @@
         "Subcategory": "Server:dns:1",
         "Description": "Sets the server name visible in the game browser",
         "Keywords": "server,name,hostname",
-        "FieldName": "hostname",
+        "FieldName": "server_name",
         "InputType": "text",
         "IsFlagArgument": false,
-        "ParamFieldName": "hostname",
+        "ParamFieldName": "server_name",
         "IncludeInCommandLine": false,
         "DefaultValue": "AMP Powered Ace Squared Server",
         "EnumValues": {}
