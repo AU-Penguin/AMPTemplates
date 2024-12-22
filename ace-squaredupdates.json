@@ -5,18 +5,20 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "3252540",
         "UpdateSourceArgs": "3252540",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Save Directory Creation",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullRootDir}}a2"
     },
     {
         "UpdateStageName": "Config Template Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "UpdateSourceData": "https://raw.githubusercontent.com/AU-Penguin/AMPTemplates/main/ace-squaredserver.cfg",
         "UpdateSourceTarget": "{{$FullRootDir}}",
-        "UpdateSourceArgs": "AMP_config.toml"
+        "UpdateSourceArgs": "a2/AMP_server.toml"
     }
 ]

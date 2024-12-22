@@ -1,7 +1,8 @@
 [
     {
         "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
+	"AutoMap": true,
         "ConfigType": "template",
-	"ConfigFileTemplate": "ace-squared/AMP_config.toml"
+	"ConfigFileTemplate": "a2/AMP_server.toml"
     }
 ]
