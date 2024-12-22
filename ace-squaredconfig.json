@@ -2,7 +2,7 @@
     {
         "DisplayName": "Server Name",
         "Category": "Ace Squared Settings",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Server Settings:dns:1",
         "Description": "Sets the server name visible in the game browser",
         "Keywords": "server,name,hostname",
         "FieldName": "server_name",
@@ -11,6 +11,88 @@
         "ParamFieldName": "server_name",
         "IncludeInCommandLine": false,
         "DefaultValue": "Ace Squared Server",
+	"Required": true,
         "EnumValues": {}
+    },
+    {
+        "DisplayName": "Description",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Sets the server name visible in the game browser",
+        "Keywords": "server,name,description",
+        "FieldName": "description",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "description",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Ace Squared Server powered by AMP",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Port",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Sets the game port to connect on",
+        "Keywords": "server,port",
+        "FieldName": "port",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "port",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "30001",
+	"MinValue": 1,
+	"MaxValue": 65535,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Maximum Players",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Game Settings:game:1",
+        "Description": "Sets the maximum number of players that can connect to the server",
+        "Keywords": "server,players,maximum",
+        "FieldName": "max_players",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "max_players",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 16,
+	"MinValue": 2,
+	"MaxValue": 32,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Startup Game Mode",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the game mode the server will start with. Note this does not stop other game modes being voted for and played on later.",
+        "Keywords": "server,mode,gamemode",
+        "FieldName": "gamemode",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "gamemode",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "TeamDeathmatch",
+        "EnumValues": {
+		"TeamDeathmatch": "Team Deathmatch",
+		"CaptureTheFlag": "Capture the Flag",
+		"Zombie": "Zombies"
+	}
+    },
+    {
+        "DisplayName": "Broadcast to Master Server",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Server:dns:1",
+        "Description": "Makes the server visible in the community or modded list.",
+        "Keywords": "server,name,master,community,visible,modded",
+        "FieldName": "broadcast_to_master",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "broadcast_to_master",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+		"False": "false",
+		"True": "true"
+	}
     }
 ]
