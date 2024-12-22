@@ -19,6 +19,6 @@
         "OverwriteExistingFiles": true,
         "UpdateSourceData": "https://raw.githubusercontent.com/AU-Penguin/AMPTemplates/main/ace-squaredserver.cfg",
         "UpdateSourceTarget": "{{$FullRootDir}}",
-        "UpdateSourceArgs": "a2/AMP_server.toml"
+        "UpdateSourceArgs": "AMP_server.template"
     }
 ]
