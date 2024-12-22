@@ -3,6 +3,6 @@
         "ConfigFile": "AceSquaredDedicated_Data/StreamingAssets/config.toml",
 	"AutoMap": true,
         "ConfigType": "template",
-	"ConfigFileTemplate": "AMP_server.template"
+	"ConfigFileTemplate": "ace-squared/AMP_server.template"
     }
 ]
