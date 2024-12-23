@@ -53,7 +53,7 @@
         "FieldName": "$SteamQueryPort",
         "InputType": "number",
         "IsFlagArgument": false,
-        "ParamFieldName": "port",
+        "ParamFieldName": "SteamQueryPort",
         "IncludeInCommandLine": false,
         "DefaultValue": "30002",
 	"MinValue": 1,
@@ -69,12 +69,29 @@
         "FieldName": "$HeartbeatPort",
         "InputType": "number",
         "IsFlagArgument": false,
-        "ParamFieldName": "port",
+        "ParamFieldName": "HeartbeatPort",
         "IncludeInCommandLine": false,
         "DefaultValue": "30003",
 	"MinValue": 1,
 	"MaxValue": 65535,
         "EnumValues": {}
+    },
+    {
+        "DisplayName": "Enable Map Server",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Enables the server to provide custom maps download ability.",
+        "Keywords": "server,custom,maps",
+        "FieldName": "MapServer",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MapServer",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+		"False": "false",
+		"True": "true"
+	}
     },
     {
         "DisplayName": "Map Server Port",
@@ -85,7 +102,7 @@
         "FieldName": "$MapServer",
         "InputType": "number",
         "IsFlagArgument": false,
-        "ParamFieldName": "port",
+        "ParamFieldName": "MapServerPort",
         "IncludeInCommandLine": false,
         "DefaultValue": "30004",
 	"MinValue": 1,
@@ -111,7 +128,7 @@
     {
         "DisplayName": "Startup Game Mode",
         "Category": "Ace Squared Settings",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Game Settings:game:1",
         "Description": "Sets the game mode the server will start with. Note this does not stop other game modes being voted for and played on later.",
         "Keywords": "server,mode,gamemode",
         "FieldName": "gamemode",
@@ -129,7 +146,7 @@
     {
         "DisplayName": "Broadcast to Master Server",
         "Category": "Ace Squared Settings",
-        "Subcategory": "Server:dns:1",
+        "Subcategory": "Server Settings:dns:1",
         "Description": "Makes the server visible in the community or modded list.",
         "Keywords": "server,name,master,community,visible,modded",
         "FieldName": "broadcast_to_master",
@@ -142,5 +159,69 @@
 		"False": "false",
 		"True": "true"
 	}
-    }
+    },
+    {
+        "DisplayName": "Modded Server",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Game Settings:game:1",
+        "Description": "Enables the server to run LUA scripts for a custom experience.",
+        "Keywords": "server,custom,mods,modded",
+        "FieldName": "modded",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "modded",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+		"False": "false",
+		"True": "true"
+	}
+    },
+    {
+        "DisplayName": "Enable Auto Shutdown",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Shuts down the server when nobody has connected for an amount of time",
+        "Keywords": "server,stop,shutdown",
+        "FieldName": "AutoShutdown",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "AutoShutdown",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+		"False": "false",
+		"True": "true"
+	}
+    },
+    {
+        "DisplayName": "Auto Shutdown Time",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Shuts the server down after being idle for this amount of time",
+        "Keywords": "server,stop,shutdown,time",
+        "FieldName": "ShutdownAfter",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "shutdown_after",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 86400,
+	"Suffix": "seconds",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Startup Map",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Game Settings:game:1",
+        "Description": "Sets the map that the server will start on. This settings doesn't prevent other maps being voted on at rounds end.",
+        "Keywords": "server,map",
+        "FieldName": "maps",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "maps",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ArcticBase",
+	"Required": true,
+        "EnumValues": {}
+    },
 ]
