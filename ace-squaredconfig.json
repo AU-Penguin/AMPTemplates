@@ -228,4 +228,21 @@
 	"Required": true,
         "EnumValues": {}
     },
+   {
+        "DisplayName": "Map Server IP Override",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Sets the IP Address that the map server will bind and respond on. You might need to change this when using NAT / Port Forwarding",
+        "Keywords": "server,map,ip,override",
+        "FieldName": "map_override",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "map_override",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+	"Required": false,
+	"SkipIfEmpty": true,
+        "EnumValues": {}
+    },
+
 ]
