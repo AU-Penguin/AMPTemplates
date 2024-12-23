@@ -50,7 +50,7 @@
         "Subcategory": "Game Settings:game:1",
         "Description": "Sets the maximum number of players that can connect to the server",
         "Keywords": "server,players,maximum",
-        "FieldName": "max_players",
+        "FieldName": "$MaxUsers",
         "InputType": "number",
         "IsFlagArgument": false,
         "ParamFieldName": "max_players",
