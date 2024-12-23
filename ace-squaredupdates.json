@@ -7,12 +7,6 @@
         "UpdateSourceArgs": "3252540",
     },
     {
-        "UpdateStageName": "Save Directory Creation",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "CreateDirectory",
-        "UpdateSourceArgs": "{{$FullRootDir}}a2"
-    },
-    {
         "UpdateStageName": "Config Template Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
