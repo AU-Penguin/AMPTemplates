@@ -40,6 +40,7 @@
         "ParamFieldName": "port",
         "IncludeInCommandLine": false,
         "DefaultValue": "30001",
+	"Hidden": true,
 	"MinValue": 1,
 	"MaxValue": 65535,
         "EnumValues": {}
@@ -56,6 +57,7 @@
         "ParamFieldName": "SteamQueryPort",
         "IncludeInCommandLine": false,
         "DefaultValue": "30002",
+	"Hidden": true,
 	"MinValue": 1,
 	"MaxValue": 65535,
         "EnumValues": {}
@@ -72,6 +74,7 @@
         "ParamFieldName": "HeartbeatPort",
         "IncludeInCommandLine": false,
         "DefaultValue": "30003",
+	"Hidden": true,
 	"MinValue": 1,
 	"MaxValue": 65535,
         "EnumValues": {}
@@ -105,6 +108,7 @@
         "ParamFieldName": "MapServerPort",
         "IncludeInCommandLine": false,
         "DefaultValue": "30004",
+	"Hidden": true,
 	"MinValue": 1,
 	"MaxValue": 65535,
         "EnumValues": {}
