@@ -144,7 +144,8 @@
         "EnumValues": {
 		"TeamDeathmatch": "Team Deathmatch",
 		"CaptureTheFlag": "Capture the Flag",
-		"Zombie": "Zombies"
+		"Zombie": "Zombies",
+		"ClassicCTF": "Classic CTF"
 	}
     },
     {
