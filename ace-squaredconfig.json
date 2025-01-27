@@ -80,40 +80,6 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Enable Map Server",
-        "Category": "Ace Squared Settings",
-        "Subcategory": "Server Settings:dns:1",
-        "Description": "Enables the server to provide custom maps download ability.",
-        "Keywords": "server,custom,maps",
-        "FieldName": "MapServer",
-        "InputType": "checkbox",
-        "IsFlagArgument": false,
-        "ParamFieldName": "MapServer",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "false",
-        "EnumValues": {
-		"False": "false",
-		"True": "true"
-	}
-    },
-    {
-        "DisplayName": "Map Server Port",
-        "Category": "Ace Squared Settings",
-        "Subcategory": "Server Settings:dns:1",
-        "Description": "Sets the port to host map downloads on",
-        "Keywords": "server,port,map",
-        "FieldName": "$MapServer",
-        "InputType": "number",
-        "IsFlagArgument": false,
-        "ParamFieldName": "MapServerPort",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "30004",
-	"Hidden": true,
-	"MinValue": 1,
-	"MaxValue": 65535,
-        "EnumValues": {}
-    },
-    {
         "DisplayName": "Maximum Players",
         "Category": "Ace Squared Settings",
         "Subcategory": "Game Settings:game:1",
@@ -229,21 +195,4 @@
 	"Required": true,
         "EnumValues": {}
     },
-   {
-        "DisplayName": "Map Server IP Override",
-        "Category": "Ace Squared Settings",
-        "Subcategory": "Server Settings:dns:1",
-        "Description": "Sets the IP Address that the map server will bind and respond on. You might need to change this when using NAT / Port Forwarding",
-        "Keywords": "server,map,ip,override",
-        "FieldName": "map_override",
-        "InputType": "text",
-        "IsFlagArgument": false,
-        "ParamFieldName": "map_override",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "",
-	"Required": false,
-	"SkipIfEmpty": true,
-        "EnumValues": {}
-    },
-
 ]
