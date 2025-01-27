@@ -19,12 +19,5 @@
         "Name": "Heartbeat Port",
         "Description": "Port used for heartbeat traffic",
         "Ref": "HeartbeatPort"
-    },
-    {
-        "Protocol": "TCP",
-        "Port": "30004",
-        "Name": "Map Server",
-        "Description": "Port used for downloading custom maps",
-        "Ref": "MapServer"
     }
 ]
