@@ -114,6 +114,24 @@
 		"ClassicCTF": "Classic CTF"
 	}
     },
+	    {
+        "DisplayName": "Server Type",
+        "Category": "Ace Squared Settings",
+        "Subcategory": "Game Settings:game:1",
+        "Description": "Sets the server type of the server.",
+        "Keywords": "server,type,dlc",
+        "FieldName": "servertype",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "servertype",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "dlc",
+        "EnumValues": {
+		"free": "Free",
+		"mixed": "Mixed",
+		"dlc": "DLC"
+	}
+    },
     {
         "DisplayName": "Broadcast to Master Server",
         "Category": "Ace Squared Settings",
